@@ -1,0 +1,5 @@
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.Model\bin\Debug\Practia.Bar.Model.dll
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.Model\bin\Debug\Practia.Bar.Model.pdb
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.Model\obj\Debug\Practia.Bar.Model.dll
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.Model\obj\Debug\Practia.Bar.Model.pdb
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.Model\obj\Debug\Practia.Bar.Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.App\bin\Debug\Practia.Bar.App.exe.config
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.App\bin\Debug\Practia.Bar.App.exe
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.App\bin\Debug\Practia.Bar.App.pdb
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.App\obj\Debug\Practia.Bar.App.exe
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.App\obj\Debug\Practia.Bar.App.pdb
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.App\bin\Debug\Practia.Bar.Model.dll
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.App\bin\Debug\Practia.Bar.Model.pdb
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.App\obj\Debug\Practia.Bar.App.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\bin\Debug\Practia.Bar.WindowsApp.exe.config
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\bin\Debug\Practia.Bar.WindowsApp.exe
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\bin\Debug\Practia.Bar.WindowsApp.pdb
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\obj\Debug\Practia.Bar.WindowsApp.csprojResolveAssemblyReference.cache
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\obj\Debug\Practia.Bar.WindowsApp.Properties.Resources.resources
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\obj\Debug\Practia.Bar.WindowsApp.csproj.GenerateResource.Cache
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\obj\Debug\Practia.Bar.WindowsApp.exe
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\obj\Debug\Practia.Bar.WindowsApp.pdb
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\bin\Debug\Practia.Bar.Model.dll
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\bin\Debug\Practia.Bar.Model.pdb
+c:\users\shp_epm.desapragma01\documents\visual studio 2013\Projects\EjemploBar\Practia.Bar.WindowsApp\obj\Debug\Practia.Bar.WindowsApp.MainForm.resources
