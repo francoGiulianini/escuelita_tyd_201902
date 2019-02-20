@@ -7,59 +7,63 @@ namespace Practia.Bar.Model
 {
     public class Factura
     {
+
+        public Factura(int unaFecha, int unNúmero, int unMonto, Cliente unCliente, Mesa unaMesa, Mozo unMozo, int unaCantidadComensales)
+        {
+            this.Fecha = unaFecha;
+            this.Número = unNúmero;
+            this.Monto = unMonto;
+            this.Cliente = unCliente;
+            this.Mesa = unaMesa;
+            this.Mozo = unMozo;
+            this.CantidadComensales = unaCantidadComensales;
+        }
+
         public int Fecha
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int Número
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int Monto
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public Cliente Cliente
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public Mozo Mozo
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
+        }
+
+        public int CantidadComensales
+        {
+            get;
+            set;
+        }
+
+        public Mesa Mesa
+        {
+            get;
+            set;
+        }
+
+        public bool mesaBienAsiganada()
+        {
+            return this.CantidadComensales == this.Mesa.Cubiertos;
         }
     }
 }

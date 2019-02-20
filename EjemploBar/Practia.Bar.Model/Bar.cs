@@ -36,6 +36,14 @@ namespace Practia.Bar.Model
             throw new System.NotImplementedException();
         }
 
+        private int aciertosDeAsignacion()
+        {
+            return Facturas.Where(unaFactura => unaFactura.mesaBienAsiganada()).ToList().Count;
+        }
 
+        public double eficienciaDistribucionDelDia()
+        {
+            return (double)this.aciertosDeAsignacion() / this.Facturas.Count;
+        }
     }
 }

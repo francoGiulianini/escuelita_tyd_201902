@@ -1,26 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Practia.Bar.Model.Mesa">
-    <Position X="8.25" Y="0.5" Width="1.5" />
+    <Position X="8" Y="1.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <AssociationLine Name="Reserva" Type="Practia.Bar.Model.Reserva">
       <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
-        <Position X="0.57" Y="0.1" Height="0.16" Width="1.024" />
+        <Position X="0.688" Y="-0.179" Height="0.16" Width="1.024" />
       </MemberNameLabel>
-    </AssociationLine>
-    <AssociationLine Name="MozoAsignado" Type="Practia.Bar.Model.Mozo" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="8.25" Y="1.876" />
-        <Point X="7.875" Y="1.876" />
-        <Point X="7.875" Y="4.037" />
-        <Point X="7" Y="4.037" />
-      </Path>
     </AssociationLine>
     <AssociationLine Name="Estado" Type="Practia.Bar.Model.EstadoMesa">
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.008" Y="0.839" />
+        <Position X="-0.301" Y="0.824" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="MozoAsignado" Type="Practia.Bar.Model.Mozo" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="3.126" />
+        <Point X="7.745" Y="3.126" />
+        <Point X="7.745" Y="5.537" />
+        <Point X="6.75" Y="5.537" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.125" Y="0.075" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -29,18 +32,18 @@
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Reserva" />
-      <Property Name="MozoAsignado" />
       <Property Name="Estado" />
+      <Property Name="MozoAsignado" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Practia.Bar.Model.Reserva">
-    <Position X="3.75" Y="7" Width="1.5" />
+    <Position X="0.75" Y="6.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <AssociationLine Name="Cliente" Type="Practia.Bar.Model.Cliente">
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.102" Y="0.537" />
+        <Position X="-0.295" Y="0.375" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -52,37 +55,54 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Practia.Bar.Model.Cliente">
-    <Position X="3" Y="3" Width="1.5" />
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="Practia.Bar.Model.Persona" ManuallyRouted="true">
+      <Path>
+        <Point X="5" Y="3.606" />
+        <Point X="5" Y="4.011" />
+        <Point X="2.5" Y="4.011" />
+        <Point X="2.5" Y="4.25" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
       <FileName>Cliente.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Practia.Bar.Model.Bar">
-    <Position X="0.75" Y="4.25" Width="1.5" />
-    <AssociationLine Name="Facturas" Type="Practia.Bar.Model.Factura">
-      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
-        <Position X="0.058" Y="0.3" Height="0.16" Width="0.722" />
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <AssociationLine Name="Mesas" Type="Practia.Bar.Model.Mesa" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="7.125" />
+        <Point X="9.125" Y="7.125" />
+        <Point X="9.125" Y="3.823" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.14" Y="0.398" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Mozos" Type="Practia.Bar.Model.Mozo">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.36" Y="-0.087" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAACAAAQAAAAAAEgAAA=</HashCode>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAABAQACAAAQAAAAAAEgAAA=</HashCode>
       <FileName>Bar.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
-      <Property Name="Facturas" />
-      <Property Name="Mozos" />
       <Property Name="Mesas" />
+      <Property Name="Mozos" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Practia.Bar.Model.Mozo">
-    <Position X="5.5" Y="3.75" Width="1.5" />
-    <InheritanceLine Type="Practia.Bar.Model.Persona" ManuallyRouted="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Practia.Bar.Model.Persona" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="5" Y="2.356" />
-        <Point X="5" Y="2.625" />
-        <Point X="6.25" Y="2.625" />
-        <Point X="6.25" Y="3.75" />
+        <Point X="5" Y="3.606" />
+        <Point X="5" Y="4.875" />
+        <Point X="6" Y="4.875" />
+        <Point X="6" Y="5.25" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -90,26 +110,42 @@
       <FileName>Mozo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Practia.Bar.Model.Factura">
-    <Position X="0.75" Y="1.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAIAAAEAAACAAACIAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Factura.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Mozo" />
-      <Property Name="Cliente" />
-    </ShowAsAssociation>
-  </Class>
   <Class Name="Practia.Bar.Model.Persona">
-    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Position X="4.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAQAAAAAAAAAAEAAAAgAAAAAEAAAAAAAAAABAAAAA=</HashCode>
       <FileName>Persona.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Practia.Bar.Model.Factura">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Cliente" Type="Practia.Bar.Model.Cliente">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.278" Y="0.492" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Mozo" Type="Practia.Bar.Model.Mozo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="1.375" />
+        <Point X="6.406" Y="1.375" />
+        <Point X="6.406" Y="5.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.272" Y="0.781" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAIAAAEAAACAAACIAAAAAYAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factura.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cliente" />
+      <Property Name="Mesa" />
+      <Property Name="Mozo" />
+    </ShowAsAssociation>
+  </Class>
   <Enum Name="Practia.Bar.Model.EstadoMesa">
-    <Position X="8" Y="6.5" Width="1.5" />
+    <Position X="7.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAADAAA=</HashCode>
       <FileName>EstadoMesa.cs</FileName>
